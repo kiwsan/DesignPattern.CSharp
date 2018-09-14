@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Autofac.FactoryPattern.Managers
 {
-    public class LineMessage : IMessage
+    public class LineMessage : IMessage, ILineMessage
     {
 
         public void Send(string message)

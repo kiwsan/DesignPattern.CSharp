@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Autofac.FactoryPattern.Managers
 {
-    public class EmailMessage : IMessage, IEmailMessage
+    public interface ILineMessage
     {
-        public void Send(string message)
-        {
-            Console.WriteLine($"Email message: {message}");
-        }
     }
 }

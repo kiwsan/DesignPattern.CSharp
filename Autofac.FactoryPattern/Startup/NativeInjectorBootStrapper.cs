@@ -15,6 +15,8 @@ namespace Autofac.FactoryPattern.Startup
         {
             var builder = new ContainerBuilder();
 
+            builder.RegisterType<EmailMessage>().As<IEmailMessage>();
+            builder.RegisterType<LineMessage>().As<ILineMessage>();
             builder.RegisterType<EmailMessage>().AsSelf();
             builder.RegisterType<LineMessage>().AsSelf();
 
