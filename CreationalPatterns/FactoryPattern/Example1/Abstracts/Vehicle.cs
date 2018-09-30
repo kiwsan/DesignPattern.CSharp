@@ -1,4 +1,4 @@
-namespace FactoryPattern
+namespace FactoryPattern.Example1.Abstracts
 {
 
     public abstract class Vehicle
@@ -8,7 +8,7 @@ namespace FactoryPattern
 
         public abstract void Refuel();
 
-        public abstract int GetFuel() => 0;
+        public abstract int GetFuel();
 
         public abstract void Move();
 
