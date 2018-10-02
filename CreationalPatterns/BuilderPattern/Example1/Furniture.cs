@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuilderPattern
+namespace BuilderPattern.Example1
 {
     public class Furniture
     {
